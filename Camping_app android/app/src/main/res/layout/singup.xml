@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <!-- 이미지 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/campimg"
+            android:src="@drawable/camping2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+
+            android:text="CampingGAJO"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="회원 가입"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        />
+
+
+    <!-- 정보 입력란 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        >
+
+        <!-- 아이디 / 이메일 입력란, 중복확인 버튼-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <!-- 아이디 / 이메일 -->
+            <EditText
+                android:id="@+id/signup_id"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="ID (이메일주소)"
+                android:textSize="23dp"
+                android:textColor="@color/black"/>
+            <!-- 중복확인 -->
+            <Button
+                android:id="@+id/signup_overlap_btn"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="중복확인"
+                android:textSize="20dp"
+                android:backgroundTint="#FF5722"
+                />
+        </LinearLayout>
+
+        <!-- 패스워드 / 전화번호 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <!-- 패스워드 -->
+            <EditText
+                android:id="@+id/signup_pw"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="PW"
+                android:textSize="23dp"
+                android:textColor="@color/black"
+                />
+            <!-- 패스워드 확인 -->
+            <EditText
+                android:id="@+id/signup_pw_overlap"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="PW 확인"
+                android:textSize="23dp"
+                android:textColor="@color/black"
+                />
+
+            <!-- 전화번호 -->
+            <EditText
+                android:id="@+id/signup_number"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="전화번호 (- 생략)"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                />
+
+            <!-- 이름 -->
+            <EditText
+                android:id="@+id/signup_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="이름"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text123"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 회원가입 버튼 / 홈 버튼-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:gravity="bottom"
+        >
+        <!-- 회원가입 버튼-->
+        <Button
+            android:id="@+id/signup_join_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:textSize="20dp"
+            android:backgroundTint="#FF9800"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <!-- 홈 버튼-->
+            <Button
+                android:id="@+id/home_btn"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="홈"
+                android:textSize="20dp"
+                android:backgroundTint="#4CAF50"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

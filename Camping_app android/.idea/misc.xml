@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Camping_beta (2)/app/src/main/res/layout/kind.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/Camping_beta (2)/app/src/main/res/layout/location.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/Camping_beta (2)/app/src/main/res/layout/mainpage.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/Camping_beta (2)/app/src/main/res/layout/mypage.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/Camping_beta (2)/app/src/main/res/layout/notice.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/Camping_beta (2)/app/src/main/res/layout/popup.xml" value="0.33" />
+        <entry key="..\:/Android/Camping_beta (2)/app/src/main/res/layout/region.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/Camping_beta (2)/app/src/main/res/layout/search_list.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/convenience.xml" value="0.33" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/custom_callout_balloon.xml" value="0.3614583333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/custom_dip.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/dip.xml" value="0.3614583333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/findid.xml" value="0.3614583333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/findid2.xml" value="0.33" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/findpw.xml" value="0.3614583333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/findpw2.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/kind.xml" value="0.33" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/location.xml" value="0.3614583333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/login.xml" value="0.3614583333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/mainpage.xml" value="0.25" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/mypage.xml" value="0.22" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/notice.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/popup.xml" value="0.3614583333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/ranking.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/rankinglist.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/region.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/search_list.xml" value="0.13148148148148148" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/singup.xml" value="0.33" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/surrond.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android/Camping_beta2/app/src/main/res/layout/updateinfo.xml" value="0.2708333333333333" />
+        <entry key="..\:/Camping_beta2/app/src/main/res/layout/findid.xml" value="0.1" />
+        <entry key="..\:/Camping_beta2/app/src/main/res/layout/findpw.xml" value="0.16590678824721378" />
+        <entry key="..\:/Camping_beta2/app/src/main/res/layout/findpw2.xml" value="0.16590678824721378" />
+        <entry key="..\:/Camping_beta2/app/src/main/res/layout/location.xml" value="0.5536458333333333" />
+        <entry key="..\:/Camping_beta2/app/src/main/res/layout/mainpage.xml" value="0.3515625" />
+        <entry key="..\:/Camping_beta2/app/src/main/res/layout/notice.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/convenience.xml" value="0.346875" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/custom_callout_balloon.xml" value="0.23505434782608695" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/custom_dip.xml" value="0.17097264437689969" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/dip.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/findid.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/findpw.xml" value="0.40298507462686567" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/kind.xml" value="0.346875" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/layout.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/location.xml" value="0.40298507462686567" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/login.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/mainpage.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/mypage.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/notice.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/popup.xml" value="0.40298507462686567" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/ranking.xml" value="0.3515625" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/rankinglist.xml" value="0.17097264437689969" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/region.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/search.xml" value="0.2390625" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/search_list.xml" value="0.40298507462686567" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/singup.xml" value="0.2390625" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/surrond.xml" value="0.3515625" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta/app/src/main/res/layout/updateinfo.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta2/app/src/main/res/layout/custom_dip.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta2/app/src/main/res/layout/findid.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta2/app/src/main/res/layout/findid2.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta2/app/src/main/res/layout/findpw2.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/ansqh/Desktop/Camping_beta2/app/src/main/res/layout/popup.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/pyi95/Desktop/CampingGAJO/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/pyi95/Desktop/CampingGAJO/app/src/main/res/layout/login.xml" value="0.33" />
+        <entry key="..\:/Users/pyi95/Desktop/CampingGAJO/app/src/main/res/layout/logintest.xml" value="0.32653985507246375" />
+        <entry key="..\:/Users/pyi95/Desktop/CampingGAJO/app/src/main/res/layout/mainpage.xml" value="0.33" />
+        <entry key="..\:/Users/pyi95/Desktop/CampingGAJO/app/src/main/res/layout/notice.xml" value="0.30978260869565216" />
+        <entry key="..\:/Users/pyi95/Desktop/CampingGAJO/app/src/main/res/layout/region.xml" value="0.30978260869565216" />
+        <entry key="..\:/Users/pyi95/Desktop/CampingGAJO/app/src/main/res/layout/signup.xml" value="0.33" />
+        <entry key="..\:/Users/pyi95/Desktop/CampingGAJO/app/src/main/res/layout/singup.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/convenience.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/custom_callout_balloon.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/findid.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/inquiry.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/kind.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/location.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/login.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/mypage.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/notice.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/notice_list.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/notice_read.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/popup.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/qna.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/ranking.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/search_list.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/singup.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/CampingGAJO (2)/app/src/main/res/layout/surrond.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/dip.xml" value="0.16044399596367306" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/kind.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/location.xml" value="0.40298507462686567" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/login.xml" value="0.16044399596367306" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/mainpage.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/mypage.xml" value="0.16044399596367306" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/ranking.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/rankinglist.xml" value="0.3515625" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/search_list.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/singup.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Camping_beta/app/src/main/res/layout/updateinfo.xml" value="0.16044399596367306" />
+        <entry key="..\:/android_workspace/CamPing/CamLogin/app/src/main/res/layout/login.xml" value="0.29181677817807516" />
+        <entry key="..\:/android_workspace/CamPing/CamLogin/app/src/main/res/layout/mainpage.xml" value="0.33" />
+        <entry key="..\:/android_workspace/CamPing/CamLogin/app/src/main/res/layout/mypage.xml" value="0.11626139817629179" />
+        <entry key="..\:/android_workspace/CamPing/CamLogin/app/src/main/res/layout/notice.xml" value="0.1" />
+        <entry key="..\:/android_workspace/CamPing/CamLogin/app/src/main/res/layout/region.xml" value="0.1" />
+        <entry key="..\:/android_workspace/CamPing/CamLogin/app/src/main/res/layout/singup.xml" value="0.33" />
+        <entry key="..\:/android_workspace/CamPing/Camping/app/src/main/res/layout/findid.xml" value="0.2390625" />
+        <entry key="..\:/android_workspace/CamPing/Camping/app/src/main/res/layout/findpw.xml" value="0.2390625" />
+        <entry key="..\:/android_workspace/CamPing/Camping/app/src/main/res/layout/login.xml" value="0.33" />
+        <entry key="..\:/android_workspace/CamPing/Camping/app/src/main/res/layout/mypage.xml" value="0.12335359675785208" />
+        <entry key="..\:/android_workspace/CamPing/CampingGAJO/app/src/main/res/layout/mainpage.xml" value="0.3515625" />
+        <entry key="..\:/android_workspace/CamPing/CampingGAJO/app/src/main/res/layout/notice.xml" value="0.38333333333333336" />
+        <entry key="..\:/android_workspace/CamPing/CampingGAJO/app/src/main/res/layout/notice_list.xml" value="0.38333333333333336" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/custom_callout_balloon.xml" value="0.18819655521783182" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/custom_dip.xml" value="0.1" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/custom_qna.xml" value="0.18819655521783182" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/dip.xml" value="0.18819655521783182" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/inquiry.xml" value="0.38697916666666665" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/mainpage.xml" value="0.3515625" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/mypage.xml" value="0.3515625" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/notice.xml" value="0.23097826086956522" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/notice_list.xml" value="0.18819655521783182" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/notice_read.xml" value="0.23097826086956522" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/qna.xml" value="0.18110435663627153" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/qna_read.xml" value="0.3723958333333333" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/ranking.xml" value="0.23097826086956522" />
+        <entry key="..\:/android_workspace/CamPing/Camping_beta2/app/src/main/res/layout/rankinglist.xml" value="0.18819655521783182" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3515625" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- 공지사항 -->
+    <LinearLayout
+        android:id="@+id/notice_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/notice_img"
+            android:layout_margin="6dp"
+            android:src="@drawable/loudspeaker"
+
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            />
+
+        <TextView
+            android:id="@+id/notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+
+            android:text="공지"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <!-- 밑줄 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+
+        android:background="@color/black"
+        />
+
+    <!-- 이벤트 사진/ 이벤트 공지 -->
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+
+        android:background="@color/black">
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/eventFlipper">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/nomalcamping"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/carcampingimg1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/glampingimg1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/caravanimg1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/main1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/main2"/>
+        </ViewFlipper>
+    </LinearLayout>
+
+        <!-- 검색, 주변, 추천 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <!-- 검색, 주변, 추천 이미지-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/mapsearch"
+                    android:src="@drawable/mapsearch"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/surroundings"
+                    android:src="@drawable/surroundings"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="100dp"
+                    />
+            </LinearLayout>
+
+            <!-- 검색, 주변 텍스트 / 버튼-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/search_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search"
+                    android:textColor="@color/black"
+                    android:textSize="27dp"
+                    android:background="#00ff0000"
+
+                    />
+
+                <Button
+                    android:id="@+id/surrond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="83dp"
+                    android:text="@string/surroundings"
+                    android:textColor="@color/black"
+                    android:textSize="27dp"
+                    android:background="#00ff0000"
+                    />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 추천 / MY 버튼 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/rank"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ranking" />
+
+                <ImageView
+                    android:id="@+id/my_img"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="100dp"
+                    android:src="@drawable/mypage" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ranking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:text="@string/recommend"
+                    android:textColor="@color/black"
+                    android:textSize="27dp" />
+
+                <Button
+                    android:id="@+id/my_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="81dp"
+                    android:background="#00ff0000"
+                    android:text="마이"
+                    android:textColor="@color/black"
+                    android:textSize="27dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>

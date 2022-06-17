@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_height="330dp"
+    android:background="@color/white"
+    android:padding="15dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/check_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:text="고객님의 정보와 일치하는 아이디입니다."/>
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="로그인"/>
+        <Button
+            android:id="@+id/find_pw_btn"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/design_default_color_error"
+            android:textSize="18sp"
+            android:text="PW찾기"/>
+
+    </LinearLayout>
+
+</LinearLayout>

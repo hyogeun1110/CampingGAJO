@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 이미지 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/campimg"
+            android:src="@drawable/camping2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="CampingGAJO"
+            android:textSize="35dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="로그인"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        />
+
+    <!--  로그아웃상태  -->
+    <LinearLayout
+        android:id="@+id/logon_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <!-- 정보 입력란 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <!-- 아이디(이메일) / 패스워드 입력란-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:layout_marginTop="0dp"
+                >
+                <!-- 아이디 / 이메일 -->
+                <EditText
+                    android:id="@+id/login_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ID (이메일주소)"
+                    android:textSize="23dp"
+                    android:textColor="@color/black"
+                    />
+                <EditText
+                    android:id="@+id/login_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textPassword"
+                    android:hint="PW"
+                    android:textSize="23dp"
+                    android:textColor="@color/black"
+                    />
+                <!-- 로그인 버튼-->
+                <Button
+                    android:id="@+id/login_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="로그인"
+                    android:textSize="20dp"
+                    android:backgroundTint="#FF5722"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/find_id"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:hint="ID찾기"
+                        android:backgroundTint="@color/white"/>
+                    <Button
+                        android:id="@+id/find_pw"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:hint="PW찾기"
+                        android:backgroundTint="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="아직 회원이 아니신가요?"/>
+                    <!-- 회원가입  -->
+                    <TextView
+                        android:id="@+id/singup_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#FF5722"
+                        android:text="회원가입 >"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- 패스워드 / 전화번호 -->
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
